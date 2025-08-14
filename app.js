@@ -198,7 +198,7 @@ for (const num of nums) {
   if (num % 5 === 0) {
     buzz.push(num);
   }
-  if (num % 3 === 0 , num % 5 === 0) {
+  if (num % 3 === 0 && num % 5 === 0) {
     fizzbuzz.push(num);
   }
 }
